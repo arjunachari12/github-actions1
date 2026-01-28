@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Fake AWS Key for secret scanning demo
-const FAKE_AWS_ACCESS_KEY_ID = 'AKIAIOSFODNN7EXAMPLE';
+const FAKE_AWS_ACCESS_KEY_ID = 'AKIAFAKE123456789012';
 
 // XSS vulnerability
 app.get('/', (req, res) => {
